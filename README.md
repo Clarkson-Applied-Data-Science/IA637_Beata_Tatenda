@@ -13,7 +13,7 @@ This web application manages clinic workflows, including:
 - Room assignment
 - Check-in & check-out tracking
 
-It follows the CRUD structure taught in class and uses clean, modular entity classes that map directly to database tables.
+It follows the CRUD structure t and uses clean, modular entity classes that map directly to database tables.
 
 ---
 
