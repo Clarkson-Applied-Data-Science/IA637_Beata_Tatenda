@@ -103,7 +103,7 @@ It follows the CRUD structure taught in class and uses clean, modular entity cla
 
 ---
 
-##  Appointment Workflow (Required by Professor)
+##  Appointment Workflow 
 
 1️⃣ **Patient submits a new appointment request**  
 - Patient cannot choose doctor  
