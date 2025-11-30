@@ -1,4 +1,4 @@
-# Clinic Appointment & Check-In Management System  
+# Clinic Appointment  
 *A Flask-based clinical workflow management application for IA637.*
 
 ---
