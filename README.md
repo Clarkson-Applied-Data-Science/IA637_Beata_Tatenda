@@ -1,9 +1,9 @@
-# 🏥 Clinic Appointment & Check-In Management System  
+# Clinic Appointment & Check-In Management System  
 *A Flask-based clinical workflow management application for IA637.*
 
 ---
 
-## 📌 Overview
+##  Overview
 This web application manages clinic workflows, including:
 
 - User login (Doctor, Patient)
@@ -17,16 +17,16 @@ It follows the CRUD structure taught in class and uses clean, modular entity cla
 
 ---
 
-## 🚀 Features
+##  Features
 
-### 👨‍⚕️ Doctor Capabilities
+###  Doctor Capabilities
 - View **requested** appointments
 - Confirm appointments (assign time, duration, doctor)
 - Manage users
 - Manage rooms
 - View check-ins
 
-### 🧑‍🦰 Patient Capabilities
+### Patient Capabilities
 - Log in
 - Request appointments
 - View personal appointment history
@@ -34,7 +34,7 @@ It follows the CRUD structure taught in class and uses clean, modular entity cla
 
 ---
 
-## 🔐 Test Login Credentials
+##  Test Login Credentials
 
 ### **Doctor Account**
 | Field | Value |
@@ -103,7 +103,7 @@ It follows the CRUD structure taught in class and uses clean, modular entity cla
 
 ---
 
-## 🔄 Appointment Workflow (Required by Professor)
+##  Appointment Workflow (Required by Professor)
 
 1️⃣ **Patient submits a new appointment request**  
 - Patient cannot choose doctor  
