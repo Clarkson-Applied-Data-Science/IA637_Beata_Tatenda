@@ -42,7 +42,7 @@ The system also includes an administrative analytics dashboard that provides ins
 
 ---
 
-##  Appointment Workflow 
+##  Getting Started (Setup Instructions)
 
 1️⃣ **Patient submits a new appointment request**  
 - Patient cannot choose doctor  
