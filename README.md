@@ -15,20 +15,8 @@ The system also includes an administrative analytics dashboard that provides ins
 
 ---
 
-##  Features
-
-###  Doctor Capabilities
-- View **requested** appointments
-- Confirm appointments (assign time, duration, doctor)
-- Manage users
-- Manage rooms
-- View check-ins
-
-### Patient Capabilities
-- Log in
-- Request appointments
-- View personal appointment history
-- Check in (optional) on arrival 
+##  Relational Schema
+<img width="1110" height="644" alt="image" src="https://github.com/user-attachments/assets/d3ed120a-8c60-45de-b1a8-83eea5a866e0" />
 
 ---
 
