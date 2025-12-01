@@ -1,10 +1,10 @@
 # Clinic Appointment and Check-in Management System
-*Final Project – IA 636 / Clarkson University
+# Final Project – IA 637 / Clarkson University
 Group Members:
 
 Beata Tatenda Moyo
 
-Tatenda Munaki*
+Tatenda Munaki
 
 ---
 
