@@ -36,10 +36,6 @@ The system also includes an administrative analytics dashboard that provides ins
 
 ---
 
-## SQL Init File Description
-
-
-
 ---
 
 ##  Getting Started (Setup Instructions)
