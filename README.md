@@ -9,17 +9,9 @@ Tatenda Munaki
 ---
 
 ##  Overview
-This web application manages clinic workflows, including:
+This web application is a full CRUD clinic appointment management system designed for doctors and patients. It allows patients to book appointments, check in for their visits, and view their appointment history. Doctors can manage patient appointments, view schedules, and update patient check-ins.
 
-- User login (Doctor, Patient)
-- Patient account access
-- Appointment requests
-- Doctor confirmation workflow
-- Room assignment
-- Check-in & check-out tracking
-
-It follows the CRUD structure t and uses clean, modular entity classes that map directly to database tables.
-
+The system also includes an administrative analytics dashboard that provides insights into clinic operations, such as daily appointments, most-requested doctors, patient traffic patterns, and check-in activity rates
 ---
 
 ##  Features
