@@ -1,5 +1,10 @@
 # Clinic Appointment and Check-in Management System
-*A Flask-based clinical workflow management application for IA637.*
+*Final Project – IA 636 / Clarkson University
+Group Members:
+
+Beata Tatenda Moyo
+
+Tatenda Munaki*
 
 ---
 
