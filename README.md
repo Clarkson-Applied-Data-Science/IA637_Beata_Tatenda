@@ -28,7 +28,7 @@ The system also includes an administrative analytics dashboard that provides ins
 - Log in
 - Request appointments
 - View personal appointment history
-- Check in (optional) on arrival
+- Check in (optional) on arrival 
 
 ---
 
