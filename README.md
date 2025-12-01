@@ -10,8 +10,9 @@ Tatenda Munaki
 
 ##  Overview
 
-###This web application is a full CRUD clinic appointment management system designed for doctors and patients. It allows patients to book appointments, check in for their visits, and view their appointment history. Doctors can manage patient appointments, view schedules, and update patient check-ins.
+This web application is a full CRUD clinic appointment management system designed for doctors and patients. It allows patients to book appointments, check in for their visits, and view their appointment history. Doctors can manage patient appointments, view schedules, and update patient check-ins.
 The system also includes an administrative analytics dashboard that provides insights into clinic operations, such as daily appointments, most-requested doctors, patient traffic patterns, and check-in activity rates
+
 ---
 
 ##  Features
