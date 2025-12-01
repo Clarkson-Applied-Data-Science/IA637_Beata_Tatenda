@@ -48,5 +48,5 @@ The system also includes an administrative analytics dashboard that provides ins
 
 ---
 
-## 📁 Project Structure
+## Analytical SQL Queries
 
