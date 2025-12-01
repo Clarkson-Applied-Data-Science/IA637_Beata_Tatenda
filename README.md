@@ -36,7 +36,7 @@ The system also includes an administrative analytics dashboard that provides ins
 
 ---
 
-## 🗄 Database Schema
+## SQL Init File Description
 
 ### **1. `user` Table**
 
