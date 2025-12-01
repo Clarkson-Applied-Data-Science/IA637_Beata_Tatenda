@@ -44,22 +44,7 @@ The system also includes an administrative analytics dashboard that provides ins
 
 ##  Getting Started (Setup Instructions)
 
-1️⃣ **Patient submits a new appointment request**  
-- Patient cannot choose doctor  
-- Form auto-assigns `patientid` using session  
-- `status = "requested"` by default  
 
-2️⃣ **Doctor/Admin views all `requested` appointments**  
-- Can assign doctor  
-- Can modify date/time/duration  
-- Can update status to `confirmed`
-
-3️⃣ **Confirmed appointments appear on both dashboards**  
-
-4️⃣ **Patient arrives → performs check-in**  
-- Check-in time recorded  
-- Staff can check them out later  
-- Metrics used for analytics (wait times, throughput)
 
 ---
 
