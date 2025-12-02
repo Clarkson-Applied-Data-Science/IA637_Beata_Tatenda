@@ -1,54 +1,171 @@
-# -----------------------------------------
-# Python cache & temp files
-# -----------------------------------------
+# ----------------------------------------------------
+# PYTHON CACHE / TEMP FILES
+# ----------------------------------------------------
 __pycache__/
-*.pyc
-*.pyo
-*.pyd
+*.py[cod]
+*$py.class
 
-# -----------------------------------------
-# Virtual environments
-# -----------------------------------------
-venv/
-env/
-.venv/
-.env/
+# C extensions
+*.so
 
-# -----------------------------------------
-# OS-generated files
-# -----------------------------------------
+# ----------------------------------------------------
+# OS-SPECIFIC FILES
+# ----------------------------------------------------
 .DS_Store
 Thumbs.db
 
-# -----------------------------------------
-# IDE/editor settings
-# -----------------------------------------
-.vscode/
-.idea/
-*.swp
-
-# -----------------------------------------
-# Secret config files (VERY IMPORTANT)
-# Do NOT upload database passwords
-# -----------------------------------------
+# ----------------------------------------------------
+# FLASK / PROJECT-SPECIFIC
+# ----------------------------------------------------
+# config containing DB password
 config.yml
-*.secret
-*.key
 
-# -----------------------------------------
-# SQLite database files (optional)
-# Upload only if needed
-# -----------------------------------------
+# flask session storage
+flask_session/
+instance/
+
+# SQLite database (optional — avoid uploading local DB)
 *.db
 *.sqlite
 *.sqlite3
 
-# -----------------------------------------
-# Logs
-# -----------------------------------------
-*.log
+# compiled HTML cache (if any)
+.webassets-cache
 
-# -----------------------------------------
-# Flask session files
-# -----------------------------------------
-instance/
+# ----------------------------------------------------
+# VIRTUAL ENVIRONMENTS
+# ----------------------------------------------------
+.env
+.envrc
+.venv
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# ----------------------------------------------------
+# DISTRIBUTION / PACKAGING
+# ----------------------------------------------------
+.Python
+build/
+dist/
+downloads/
+eggs/
+develop-eggs/
+sdist/
+parts/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ----------------------------------------------------
+# LOG FILES
+# ----------------------------------------------------
+*.log
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ----------------------------------------------------
+# TESTING / COVERAGE
+# ----------------------------------------------------
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py.cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# ----------------------------------------------------
+# JUPYTER NOTEBOOK
+# ----------------------------------------------------
+.ipynb_checkpoints
+
+# ----------------------------------------------------
+# IPYTHON
+# ----------------------------------------------------
+profile_default/
+ipython_config.py
+
+# ----------------------------------------------------
+# EDITOR / IDE SETTINGS
+# ----------------------------------------------------
+.vscode/
+.idea/
+*.swp
+.spyderproject
+.spyproject
+.ropeproject
+
+# JetBrains IDEs (PyCharm)
+# Uncomment to ignore full folder
+#.idea/
+
+# ----------------------------------------------------
+# DOCUMENTATION (SPHINX, MKDOCS)
+# ----------------------------------------------------
+docs/_build/
+.pybuilder/
+target/
+site/
+
+# ----------------------------------------------------
+# TYPE CHECKING
+# ----------------------------------------------------
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pytype/
+
+# ----------------------------------------------------
+# CYTHON
+# ----------------------------------------------------
+cython_debug/
+
+# ----------------------------------------------------
+# PIPENV / POETRY / PDM / Uv
+# ----------------------------------------------------
+#Pipfile.lock
+#poetry.lock
+#.pdm-python
+.pdm-build/
+#uv.lock
+.pixi
+__pypackages__/
+
+# ----------------------------------------------------
+# SCRAPY, DJANGO, CELERY, SAGEMATH (not used but safe)
+# ----------------------------------------------------
+.scrapy
+*.mo
+*.pot
+*.manifest
+*.spec
+local_settings.py
+celerybeat-schedule
+celerybeat.pid
+*.sage.py
+
+# ----------------------------------------------------
+# CURSOR EDITOR
+# ----------------------------------------------------
+.cursorignore
+.cursorindexingignore
+
+# ----------------------------------------------------
+# MARIMO NOTEBOOK
+# ----------------------------------------------------
+marimo/_static/
+marimo/_lsp/
+__marimo__/
