@@ -45,4 +45,22 @@ The system also includes an administrative analytics dashboard that provides ins
 ---
 
 ## Analytical SQL Queries
+Our system includes an analytics dashboard that provides operational insights into clinic performance. The dashboard includes four analytical queries, each designed to support scheduling decisions, workload balancing, and patient flow management.
 
+1. Daily Appointment Count
+
+Shows how many appointments occur on each day. Used to understand clinic workload patterns and identify high-traffic or slow days.
+
+2. Doctor Appointment Volume (With Time Normalization)
+
+Counts the number of appointments per doctor within a recent time window (e.g., last 30 days). This avoids bias toward older doctors with longer history and highlights trending or high-performing providers.
+
+3. Appointment Check-In Conversion Rate
+
+Shows the percentage of appointments that successfully result in a patient check-in. Helps identify no-show problems, communication issues, and the effectiveness of reminder systems.
+
+4. Most Common Appointment Times (Time-of-Day Distribution)
+
+Groups appointments by hour of the day to determine peak times and patient preferences. Useful for staffing, scheduling, and room allocation.
+
+Each query is implemented in the appointment class, and results are displayed on the analytics dashboard using tables and charts.
