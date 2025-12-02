@@ -10,9 +10,57 @@ Tatenda Munaki
 
 ##  Overview
 
-This web application is a full CRUD clinic appointment management system designed for doctors and patients. It allows patients to book appointments, check in for their visits, and view their appointment history. Doctors can manage patient appointments, view schedules, and update patient check-ins.
-The system also includes an administrative analytics dashboard that provides insights into clinic operations, such as daily appointments, most-requested doctors, patient traffic patterns, and check-in activity rates
+The Clinic Appointment & Check-In Management System is a full-stack web application designed to streamline how clinics manage patient bookings, doctor schedules, and check-in workflows. The system supports two primary user roles—patients and doctors—and provides role-based functionality to ensure an efficient and secure medical appointment experience.
 
+This project was developed using the Flask web framework, following the same object-oriented structure used in class (with baseObject, entity classes, SQL scripts, and Jinja templates). It demonstrates core software engineering concepts including CRUD operations, relational database management, authentication, analytics, and dynamic visualizations.
+
+The application features a complete appointment workflow:
+
+Patients can:
+
+Create an account and log in
+
+Book appointments with available doctors
+
+View upcoming appointments
+
+Self-check-in when they arrive at the clinic
+
+Doctors can:
+
+View patient appointment lists
+
+Confirm check-ins and manage appointment statuses
+
+Update appointment details
+
+Access a full Analytics Dashboard with real data visualizations
+
+Administrators / Doctors also get a dedicated dashboard showing:
+
+Daily appointment volume
+
+Doctor appointment volume over the last 30 days
+
+Patient check-in conversion rate
+
+Most common appointment times (hourly distribution)
+
+These analytics help the clinic understand patient behavior, doctor workload, and peak traffic times, allowing them to improve efficiency and resource allocation.
+
+The system uses a relational MySQL database with four main tables:
+
+user – Stores login credentials, names, and roles (doctor or patient)
+
+appointment – Records appointment date, time, patient, doctor, and status
+
+checkin – Tracks patient check-in activity
+
+room – Stores clinic room information (optional for future features)
+
+The front-end is implemented using standard HTML and CSS, with dynamic server-side rendering using Jinja templates. The analytics charts are generated using Matplotlib and stored as static PNG files.
+
+This project demonstrates a complete, user-centered appointment workflow from registration → booking → check-in → doctor confirmation → data analytics, making it an excellent foundation for a more advanced healthcare management system or a future capstone project
 ---
 
 ##  Relational Schema
