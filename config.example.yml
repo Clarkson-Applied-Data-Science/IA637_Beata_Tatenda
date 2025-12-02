@@ -1,0 +1,11 @@
+db:
+  user: 
+  pw: 
+  host: 
+  db: 
+
+tables:
+  user: user
+  appointment: appointment
+  checkin: checkin
+  room: room
