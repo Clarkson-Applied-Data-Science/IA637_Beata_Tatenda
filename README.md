@@ -59,7 +59,6 @@ The system uses four core tables:
 - **`checkin`** – Records patient check-in timestamps
 - **`room`** – Clinic room information (reserved for future expansion)
 The front-end is implemented using standard HTML and CSS, with dynamic server-side rendering using Jinja templates. The analytics charts are generated using Matplotlib and stored as static PNG files.
-
 This project demonstrates a complete, user-centered appointment workflow from registration → booking → check-in → doctor confirmation → data analytics, making it an excellent foundation for a more advanced healthcare management system.
 ---
 
