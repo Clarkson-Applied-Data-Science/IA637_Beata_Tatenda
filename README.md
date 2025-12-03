@@ -12,7 +12,7 @@ Tatenda Munaki
 
 The Clinic Appointment & Check-In Management System is a full-stack web application designed to streamline how clinics manage patient bookings, doctor schedules, and check-in workflows. The system supports two primary user roles—patients and doctors—and provides role-based functionality to ensure an efficient and secure medical appointment experience.
 
-This project was developed using the Flask web framework, following the same object-oriented structure used in class (with baseObject, entity classes, SQL scripts, and Jinja templates). It demonstrates core software engineering concepts including CRUD operations, relational database management, authentication, analytics, and dynamic visualizations.
+This project was developed using the Flask web framework, following the object-oriented structure (with baseObject, entity classes, SQL scripts, and Jinja templates). It demonstrates core software engineering concepts including CRUD operations, relational database management, authentication, analytics, and dynamic visualizations.
 
 The application features a complete appointment workflow:
 
@@ -20,7 +20,6 @@ The application features a complete appointment workflow:
 
 ### Patient Features
 - Create an account and log in securely
-- Browse available doctors and time slots
 - Book new appointments
 - View upcoming appointments
 - Self check-in upon arrival at the clinic
@@ -29,7 +28,7 @@ The application features a complete appointment workflow:
 - View today's patient appointment list
 - Confirm patient check-ins
 - Update appointment status and details
-- Access a powerful **Analytics Dashboard**
+- Access Analytics Dashboard
 
 ### Analytics Dashboard
 Provides actionable insights with real-time visualizations:
@@ -46,9 +45,9 @@ These metrics help clinics optimize staffing, reduce wait times, and improve res
 |--------------------|------------------------------------------|
 | Backend            | Python + Flask                           |
 | Frontend           | HTML, CSS, Jinja2 templates              |
-| Database           | MySQL (relational)                       |
+| Database           | MySQL                                    |
 | Data Visualization | Matplotlib (charts saved as static PNGs) |
-| Authentication     | Session-based (Flask login)              |
+
 
 ## Database Schema
 
