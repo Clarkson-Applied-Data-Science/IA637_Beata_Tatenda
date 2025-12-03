@@ -16,51 +16,51 @@ This project was developed using the Flask web framework, following the same obj
 
 The application features a complete appointment workflow:
 
-Patients can:
+## Features
 
-Create an account and log in
+### Patient Features
+- Create an account and log in securely
+- Browse available doctors and time slots
+- Book new appointments
+- View upcoming appointments
+- Self check-in upon arrival at the clinic
 
-Book appointments with available doctors
+### Doctor / Administrator Features
+- View today's patient appointment list
+- Confirm patient check-ins
+- Update appointment status and details
+- Access a powerful **Analytics Dashboard**
 
-View upcoming appointments
+### Analytics Dashboard
+Provides actionable insights with real-time visualizations:
+- Daily appointment volume
+- Doctor workload over the last 30 days
+- Patient check-in conversion rate
+- Most common appointment times (hourly heat map)
 
-Self-check-in when they arrive at the clinic
+These metrics help clinics optimize staffing, reduce wait times, and improve resource allocation.
 
-Doctors can:
+## Technology Stack
 
-View patient appointment lists
+| Layer              | Technology                               |
+|--------------------|------------------------------------------|
+| Backend            | Python + Flask                           |
+| Frontend           | HTML, CSS, Jinja2 templates              |
+| Database           | MySQL (relational)                       |
+| Data Visualization | Matplotlib (charts saved as static PNGs) |
+| Authentication     | Session-based (Flask login)              |
 
-Confirm check-ins and manage appointment statuses
+## Database Schema
 
-Update appointment details
+The system uses four core tables:
 
-Access a full Analytics Dashboard with real data visualizations
-
-Administrators / Doctors also get a dedicated dashboard showing:
-
-Daily appointment volume
-
-Doctor appointment volume over the last 30 days
-
-Patient check-in conversion rate
-
-Most common appointment times (hourly distribution)
-
-These analytics help the clinic understand patient behavior, doctor workload, and peak traffic times, allowing them to improve efficiency and resource allocation.
-
-The system uses a relational MySQL database with four main tables:
-
-user – Stores login credentials, names, and roles (doctor or patient)
-
-appointment – Records appointment date, time, patient, doctor, and status
-
-checkin – Tracks patient check-in activity
-
-room – Stores clinic room information (optional for future features)
-
+- **`user`** – Stores user credentials, names, and role (`doctor` or `patient`)
+- **`appointment`** – Appointment date, time, patient ID, doctor ID, status
+- **`checkin`** – Records patient check-in timestamps
+- **`room`** – Clinic room information (reserved for future expansion)
 The front-end is implemented using standard HTML and CSS, with dynamic server-side rendering using Jinja templates. The analytics charts are generated using Matplotlib and stored as static PNG files.
 
-This project demonstrates a complete, user-centered appointment workflow from registration → booking → check-in → doctor confirmation → data analytics, making it an excellent foundation for a more advanced healthcare management system or a future capstone project
+This project demonstrates a complete, user-centered appointment workflow from registration → booking → check-in → doctor confirmation → data analytics, making it an excellent foundation for a more advanced healthcare management system.
 ---
 
 ##  Relational Schema
