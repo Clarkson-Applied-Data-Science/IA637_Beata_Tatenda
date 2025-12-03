@@ -150,4 +150,4 @@ Our system includes an **Analytics Dashboard** that provides operational insight
    Groups appointments by hour of the day to reveal peak clinic hours.  
    Useful for staffing decisions, room allocation, and understanding patient scheduling preferences.
 
-All queries are executed within `appointment.py` and presented on the Dashboard using a combination of tables (for doctor volume and conversion rate) and Matplotlib-generated charts (for daily counts and hourly distributions). Charts are automatically saved to `/static/analytics/`.
+All queries are executed within `appointment.py` and are found in the clinicappointment.zip and presented on the Dashboard using a combination of tables (for doctor volume and conversion rate) and Matplotlib-generated charts (for daily counts and hourly distributions). Charts are automatically saved to `/static/analytics/`.
