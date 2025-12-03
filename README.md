@@ -105,24 +105,24 @@ This project demonstrates a complete, user-centered appointment workflow from re
      database: "yourdatabasename"
 4. Run the Application
 
-Navigate to the project folder and open your terminal: python app.py
+   Navigate to the project folder and open your terminal: python app.py
 
-You will see output like:  Running on http://127.0.0.1:5000
+   You will see output like:  Running on http://127.0.0.1:5000
 
 5. Open the Application in the Browser
 
-http://127.0.0.1:5000
+   http://127.0.0.1:5000
 
-This loads the login page.
-Use any of the preset demo accounts created during initialization.
+   This loads the login page.
+   Use any of the preset demo accounts created during initialization.
 
 6. Using the Application
 
-Patients can create an account, book appointments, and check in.
+   Patients can create an account, book appointments, and check in.
 
-Doctors can view schedules, manage check-ins, confirm appointments, and access the Analytics Dashboard.
+   Doctors can view schedules, manage check-ins, confirm appointments, and access the Analytics Dashboard.
 
-The dashboard automatically generates visual charts stored in: /static/analytics/
+   The dashboard automatically generates visual charts stored in: /static/analytics/
 
 
 
