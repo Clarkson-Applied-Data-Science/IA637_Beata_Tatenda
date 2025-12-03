@@ -136,23 +136,24 @@ The dashboard automatically generates visual charts stored in: /static/analytics
 
 ---
 
-## Analytical SQL Queries
-Our system includes an analytics dashboard that provides operational insights into clinic performance. The dashboard includes four analytical queries, each designed to support scheduling decisions, workload balancing, and patient flow management.
+## Analytics Dashboard
 
-1. Daily Appointment Count
+Our system includes an **Analytics Dashboard** that provides operational insights into clinic performance. These analytical queries support scheduling decisions, workload balancing, and patient flow management. Each query is implemented inside the `Appointment` class and displayed using tables and Matplotlib-generated charts.
 
-Shows how many appointments occur on each day. Used to understand clinic workload patterns and identify high-traffic or slow days.
+1. **Daily Appointment Count**  
+   Shows how many appointments occur on each day.  
+   This helps the clinic understand workload patterns and identify high-traffic or slow days.
 
-2. Doctor Appointment Volume (With Time Normalization)
+2. **Doctor Appointment Volume (Last 30 Days)**  
+   Counts the number of appointments handled by each doctor within the last 30 days.  
+   The time window prevents bias toward doctors with longer tenure and highlights current workload distribution.
 
-Counts the number of appointments per doctor within a recent time window (e.g., last 30 days). This avoids bias toward older doctors with longer history and highlights trending or high-performing providers.
+3. **Appointment Check-In Conversion Rate**  
+   Displays the percentage of scheduled appointments that result in successful patient check-ins.  
+   This metric helps identify no-show rates and potential issues in reminders or communication.
 
-3. Appointment Check-In Conversion Rate
+4. **Most Common Appointment Times (Hourly Distribution)**  
+   Groups appointments by hour of the day to reveal peak clinic hours.  
+   Useful for staffing decisions, room allocation, and understanding patient scheduling preferences.
 
-Shows the percentage of appointments that successfully result in a patient check-in. Helps identify no-show problems, communication issues, and the effectiveness of reminder systems.
-
-4. Most Common Appointment Times (Time-of-Day Distribution)
-
-Groups appointments by hour of the day to determine peak times and patient preferences. Useful for staffing, scheduling, and room allocation.
-
-Each query is implemented in the appointment class, and results are displayed on the analytics dashboard using tables and charts.
+All queries are executed within `appointment.py` and presented on the Dashboard using a combination of tables (for doctor volume and conversion rate) and Matplotlib-generated charts (for daily counts and hourly distributions). Charts are automatically saved to `/static/analytics/`.
