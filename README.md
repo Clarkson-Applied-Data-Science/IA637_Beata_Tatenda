@@ -83,32 +83,26 @@ This project demonstrates a complete, user-centered appointment workflow from re
 
 ---
 
-##  Getting Started (Setup Instructions)
-1. Download or Clone the Project
+## Getting Started (Setup Instructions)
 
-Clone the repository or download the ZIP file:
+1. **Download or Clone the Project**  
+   Clone the repository or download the ZIP file.
 
-2. Configure the Database
+2. **Configure the Database**  
+   Open your MySQL or phpMyAdmin environment.  
+   Create a new database (e.g., `ia637_clinicappointment`).  
+   Run the SQL script provided in: `DB_mysql.sql`
 
-Open your MySQL or phpMyAdmin environment.
-
-Create a new database .
-
-Run the SQL script provided in:DB_mysql.sql
-
-3. Add Your Database Credentials
-
-In the project folder, locate: config_example.yml
-
-Make a copy and rename it: config.yml
-
-Then fill in your MySQL login details:
-database:
-host: "localhost"
-user: "root"
-password: "your_password_here"
-database: "ia637_clinicappointment"
-
+3. **Add Your Database Credentials**  
+   In the project folder, locate: `config_example.yml`  
+   Make a copy and rename it: `config.yml`  
+   Then fill in your MySQL login details:  
+   ```yaml
+   database:
+     host: "localhost"
+     user: "root"
+     password: "your_password_here"
+     database: "ia637_clinicappointment"
 4. Run the Application
 
 Navigate to the project folder and open your terminal: python app.py
