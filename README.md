@@ -90,7 +90,7 @@ This project demonstrates a complete, user-centered appointment workflow from re
 
 2. **Configure the Database**  
    Open your MySQL or phpMyAdmin environment.  
-   Create a new database (e.g., `ia637_clinicappointment`).  
+   Create a new database (e.g., `clinicappointment`).  
    Run the SQL script provided in: `DB_mysql.sql`
 
 3. **Add Your Database Credentials**  
@@ -102,21 +102,21 @@ This project demonstrates a complete, user-centered appointment workflow from re
      host: "localhost"
      user: "root"
      password: "your_password_here"
-     database: "ia637_clinicappointment"
+     database: "yourdatabasename"
 4. Run the Application
 
 Navigate to the project folder and open your terminal: python app.py
 
 You will see output like:  Running on http://127.0.0.1:5000
 
-5.Open the Application in the Browser
+5. Open the Application in the Browser
 
 http://127.0.0.1:5000
 
 This loads the login page.
 Use any of the preset demo accounts created during initialization.
 
-6.Using the Application
+6. Using the Application
 
 Patients can create an account, book appointments, and check in.
 
